@@ -51,9 +51,9 @@ Beide Datensätze stammen von Kaggle und enthalten kurze Texte mit zugeordneten 
 | `tweet_emotion_dataset.csv` | [Kaggle – pashupatigupta](https://www.kaggle.com/datasets/pashupatigupta/emotion-detection-from-text) | 40 000 | `tweet_id` | Tweets |
 | `emotion_sentiment_dataset.csv` | [Kaggle – simaanjali](https://www.kaggle.com/datasets/simaanjali/emotion-analysis-based-on-text) | 839 555 | `text_id` | Allgemeine Texte |
 
-Emotionskategorien ($n=13$): `anger`, `boredom`, `empty`, `enthusiasm`, `fun`, `happiness`, `hate`, `love`, `neutral`, `relief`, `sadness`, `surprise`, `worry`
+Emotionskategorien ($n=$13): `anger`, `boredom`, `empty`, `enthusiasm`, `fun`, `happiness`, `hate`, `love`, `neutral`, `relief`, `sadness`, `surprise`, `worry`
 
-### Parsing-Logik (`notebooks/0_load-and-parse-datasets.ipynb`)
+### Parsing-Logik (`notebooks/0_Data-Acquisition.ipynb`)
 
 Die Rohdaten werden mit [Polars](https://pola.rs/) eingelesen. Jeder Datensatz durchläuft dieselbe Transformation:
 
